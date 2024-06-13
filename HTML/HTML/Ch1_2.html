@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=" content="width=device-width, initial-scale=1.0">
+    <title>Ch 1 & 2</title>
+</head>
+<body>
+    <br>
+    <hr>
+    <!-- Heading, Paragraph Tag  -->
+    <h1>Welcome</h1> 
+    <h2>Welcome</h2> 
+    <h3>Welcome</h3> 
+    <h4>Welcome</h4> 
+    <h5>Welcome</h5> 
+    <h6>Welcome</h6> 
+    <p>Welcome to my new and first Web Page</p>
+    <p>lorem20</p> <!--lorem is used to write random para in the webside used by lorem_size -->
+    <br>
+    <hr>
+    <br>
+
+    <!-- Example of Absolate, Relative link -->
+    <a href="https://www.youtube.com">YouTube<br></a>
+    <br>
+    <hr>
+    <br>
+    
+    <!-- Example of relative link -->
+    <a href="/Text.html">Text</a><br><!--It is an attriblue it is used to redirect to another page || <br> is used to go to the next line-->
+    <br>
+    <hr>
+    <br>
+    
+    <!-- Image tag -->
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" width="121px" alt="Robotic Eye image"> 
+    <br>
+    <br>
+    <hr>
+    <br>
+    
+    <!-- Bold, Italic and Underline -->
+    <b>This is bold <br></b>
+    <i>This is Italic<br></i>
+    <u>This is underline<br></u>
+    <br>
+    <hr>
+    <br>
+    
+    <!-- Big Small Text -->
+    <big>This is Big<br></big>
+    <small>This is Small<br></small>
+    <br>
+    <hr>
+    <br>
+    
+    <!-- Subscript and superscripr -->
+    <p>C<sub>2</sub></p>
+    <p>a<sup>2</sup> + 2ab + b<sup>2</sup></p>
+    <br>
+    <hr>
+    <br>
+
+    <!-- Pre Tag -->
+    <pre>
+        <b>
+        <u>The Code for Depth First Search</u>
+
+        #include<stdio.h>
+        #include<stdlib.h>
+        
+        // Graph
+        int visited[7] = {0,0,0,0,0,0,0};
+            int a [7][7] = {
+                {0,1,1,1,0,0,0},
+                {1,0,1,0,0,0,0},
+                {1,1,0,1,1,0,0},
+                {1,0,1,0,1,0,0},
+                {0,0,1,1,0,1,1},
+                {0,0,0,0,1,0,0}, 
+                {0,0,0,0,1,0,0} 
+            };
+        
+        // DFS Implementation  
+        void DFS(int i){
+            printf("%d\t", i);
+            visited[i] = 1;
+            for(int j = 0; j<7; j++){
+                if(a[i][j]==1 && !visited[j]){
+                    DFS(j);
+                }
+            }
+        }
+        
+        int main(){
+            int query;
+            printf("Enter the number from where you want to start: ");
+            scanf("%d", &query);
+            
+            DFS(query);
+            return 0;
+        }
+        </b>
+    </pre>
+    <br>
+    <hr>
+    <br>
+    
+</body>
+</html>
