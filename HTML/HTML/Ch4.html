@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4</title>
+</head>
+<body>
+    <br>
+    <hr>
+    <head>
+        <!-- Unordred and Ordred List -->
+        <h1><u>Chapter 4</u></h1>
+
+    </head>
+    <main>
+        <div>
+            <ul type="Circle"> 
+                <li>Home</li> 
+                <li>About</li>
+                <li>Servies</li>
+                <li>Contact Us</li>
+            </ul>
+            <ol>
+                <li>Home</li>
+                <li>About</li>
+                <li>Servies</li>
+                <li>Contact Us</li>
+            </ol>
+            <br>
+            <hr>
+            <br>
+        </div>
+
+        <div>
+            <!-- Table -->
+            <table>
+                <caption><u>Students</u></caption>
+                <thead>
+                    <tr>
+                        <th>S.NO </th>
+                        <!-- <th colspan="2">Name </th> -> Tabe Over 2 Columns --> 
+                        <th>Name</th>
+                        <th>Date </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Tejesh</td>
+                        <td>14/06.2024</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jayesh</td>
+                        <td>14/06.2024</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <hr>
+            <br>
+        </div>
+
+        <div>
+            <!-- Form Making -->
+            <h3><u>Google Form</u></h3>
+            <p>Hostel Avaling From</p>
+            <form action="backend_operator_name">
+                <p>Enter you Name</p>
+                <input type="text" placeholder="Full Name">
+                <br>
+                <p>Gender </p>
+                <label for="GenderM"> <!-- -> Make a unique id  -->
+                    <input type="radio" value="Male " name ="gender" id="GenderM">M
+                </label>
+                <label for="GenderF"> <!-- -> Make a unique id  -->
+                    <input type="radio" value="Femail " name ="gender" id="GenderF">F
+                </label>
+                <br>
+                <p>Facility you want</p>
+                <input type="checkbox" name="Mess " id="massfacality">
+                <label for="massfacality">Hostel Mess</label><br>
+                <input type="checkbox" name="wifi " id="wififacality">
+                <label for="wififacality">Hostel Wifi</label><br>
+                <input type="checkbox" name="Londary" id="londaryfacality">
+                <label for="londaryfacality">Londary</label>
+                <br>
+                <p>Which Floor you want</p>
+                <select name="floor" id="floor">
+                    <option value="default">Floor</option>
+                    <option value="Ground">Ground</option>
+                    <option value="First">First</option>
+                    <option value="Second">Second</option>
+                </select>
+                <br>
+                <p>Any Query Plese Ask</p>
+                <textarea name="help" id="help" cols="30" rows="5" placeholder="Enter Text Here..."></textarea><br>
+            </form>
+            <br>
+            <hr>
+            <br>
+
+            <div>
+                <!-- Video Player -->
+                <h3><u>Video Player</u></h3>
+                <iframe width="560" height="315"  src="https://www.youtube.com/embed/feigIqugUsA?si=6UrJlKlT2Vmst7C5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <br>
+                <br>
+                <video src="Venom (2018) 2160p.mkv" width="560px" controls >Video</video> -->
+                <br>
+                <hr>
+                <br>
+            </div>
+    </main>
+</body>
+</html>
