@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: blue;
+}
+
+/* Element */
+div{
+    p{
+        color: #ff0;
+    }
+}
+
+/* ID */
+#divID{
+    #p1{
+        color: #ff0;
+    }
+    #p2{
+        color: #ff0;
+    }
+}
+
+/* CLASS */
+.divCLASS{
+    color: #00f;
+}
+
+button{
+    color: blue;
+    background-color: darkgreen;
+}
+
+

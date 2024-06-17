@@ -1,0 +1,75 @@
+body{
+    background-color: lightgrey;
+}
+
+*{
+    font-family: Times New Roman;
+}
+
+h1{
+    text-align: center;
+    font-family: Book Antiqua;
+}
+
+main{
+    /* Text Alingment */
+    #align{
+        #right{
+            text-align: right;
+        }
+        #left{
+            text-align: left;
+        }
+        #center{
+            text-align: center;
+        }
+        #start{
+            text-align: start;
+        }
+        #end{
+            text-align: end;
+        }
+    }
+
+    /* Text Decoration */
+    #decoration{
+        #underline{
+            text-decoration: underline;
+        }
+        #overline{
+            text-decoration: overline;
+        }
+        #cut{
+            text-decoration: line-through;
+        } 
+        #none{
+            text-decoration: none;
+        }
+    }
+
+    /* Font Weight, Family */
+    #font{
+        #lighter{
+            font-weight: lighter;
+        }
+        #bold{
+            font-weight: bold;
+        }
+        #bolder{
+            font-weight: bolder;
+        }
+        #number{
+            font-weight: 900;
+        }
+        #arial{
+            font-family: Arial;
+        }
+        #ronoto{
+            font-family: ronoto;
+        }
+        #bookman_old_style{
+            font-family: Bookman Old Style;
+        }
+    }
+}
+
