@@ -1,0 +1,90 @@
+body{
+    background-color:aquamarine;
+}
+
+#ps1_h1{
+    text-decoration: underline;
+}
+
+/* Ans 1 */
+#box{
+    background-color: blue;
+}
+
+/* Ans 2 */
+.heading{
+    color: red;
+}
+
+/* Ans 3 */
+button{
+    background-color: green;
+}
+
+
+
+
+/* Practice Set No 2 */
+
+
+
+
+#ps2{
+    font-family: Bookman Old Style;
+    
+    #ps2_h2{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    #ps2_h1{
+        text-align: center;
+        font-family: Book Antiqua;
+        font-weight: darker;
+        text-decoration: underline;
+    }
+    
+    .line{
+        height: 2px;
+        background-color: black;
+    }
+
+    hr{
+        height: 3px;
+        background-color: black;
+    }
+
+    #main_h{
+        text-decoration: underline;
+        text-align: center;
+    
+    }
+    
+    #Q1{
+        /* Q1 */
+        #q1_h{
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+    
+    #Q2{
+        #text{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+    }
+    
+    #Q3{
+        #outer{
+            font-size: 25px;
+        }
+        #inner{
+            font-size: 10px;
+        }
+    }
+    
+}
+
+
+

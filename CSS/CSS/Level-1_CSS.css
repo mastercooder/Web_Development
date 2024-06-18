@@ -1,0 +1,200 @@
+body{
+    background-color: lightgrey;
+}
+
+#ch1_h1{
+    color: blue;
+}
+
+#ch2_h2{
+    color: Black;
+}
+
+/* Element */
+#ch1{
+    p{
+        color: #ff0;
+    }
+}
+
+/* ID */
+#divID{
+    #p1{
+        color: #ff0;
+    }
+    #p2{
+        color: #ff0;
+    }
+}
+
+/* CLASS */
+.divCLASS{
+    color: #00f;
+}
+
+button{
+    color: blue;
+    background-color: darkgreen;
+}
+
+
+
+
+/* Chapter 2: Text Properties */
+
+#ch2{
+    font-family: Times New Roman;
+}
+
+#ch2_h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+h1{
+    text-align: center;
+    font-family: Book Antiqua;
+    font-weight: darker;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.line{
+    height: 2px;
+    background-color: black;
+}
+
+main{
+    /* Text Alingment */
+    #align{
+        /* Text-Alignment */
+        #right{
+            text-align: right;
+        }
+        #left{
+            text-align: left;
+        }
+        #center{
+            text-align: center;
+        }
+        /* start-end */
+        #start{
+            text-align: start;
+        }
+        #end{
+            text-align: end;
+        }
+    }
+
+    /* Text Decoration */
+    #decoration{
+        #underline{
+            text-decoration: underline;
+        }
+        #overline{
+            text-decoration: overline;
+        }
+        #cut{
+            text-decoration: line-through;
+        } 
+        #none{
+            text-decoration: none;
+        }
+    }
+
+    /* Font Weight, Family */
+    #font{
+        /* Font-Weight */
+        #lighter{
+            font-weight: lighter;
+        }
+        #bold{
+            font-weight: bold;
+        }
+        #bolder{
+            font-weight: bolder;
+        }
+        #number{
+            font-weight: 900;
+        }
+        /* Font-Family */
+        #arial{
+            font-family: Arial;
+        }
+        #ronoto{
+            font-family: ronoto;
+        }
+        #bookman_old_style{
+            font-family: Bookman Old Style;
+        }
+        #cursive{
+            font-family: cursive;
+        }
+    }
+
+    /* Unit in CSS */
+    #unit{
+        /* font-size */
+        #s10{
+            font-size: 10px;
+        }
+        #s20{
+            font-size: 20px;
+        }
+        #s30{
+            font-size: 30px;
+        }
+        /* line-height */
+        #l10{
+            line-height: 10px;
+        }
+        #l20{
+            line-height: 20px;
+        }
+        #l30{
+            line-height: 30px;
+        }
+        /* Text-Transform */
+        #upparcase{
+            text-transform: uppercase;
+        }
+        #lowercase{
+            text-transform: lowercase;
+        }
+        #capitalize{
+            text-transform: capitalize;
+        }
+        #none{
+            text-transform: none;;
+        }
+    }
+}
+
+footer{
+    #practice_set{
+        #ps{
+            font-weight: bolder;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        #pshtml{
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+        #pscss{
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+            
+    }
+}
+
+
+
+

@@ -1,3 +1,27 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body{
     background-color: wheat;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+.noline{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.bold{
+    font-weight: bolder;
 }

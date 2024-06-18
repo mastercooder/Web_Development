@@ -1,0 +1,112 @@
+<!-- Practice Set 1 -->
+<!-- Q1. Create a simple div with an id "box". Add some text content inside the div. Set its baground color to blue. -->
+<!-- Q2. Create 3 heading with h1, h2 & h3. Give them all a class "heading" & set color of "heading" to be red. -->
+<!-- Q3. Create a button & set its baground color to: 
+    green using css styesheet
+    blue using <style> tag
+    pink using inline style -->
+
+<!-- Practice Set 2 -->
+<!-- Q1. Create a heading centred on the page with all of its text capitalized by default? -->
+<!-- Q2. Set the font family of all the content in the document to "Time New Roman" -->
+<!-- Q3. Create One div inside another div. 
+            Set id & text "outer" for the first one & "inner" for the second one.
+            Set the outer div text size to 25px & inner div text size to 10px-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-1: Prectice Set</title>
+    <link rel="stylesheet" href="/Level-1_Prectice_Set.css">
+</head>
+<body>
+    <header>
+        <h1 id="ps1_h1">Level 1: Prectice Set</h1>
+        <h2 id="ps1_h2">Practice Set No: 1</h2>
+        <hr>
+    </header>
+
+
+    <main>
+        <div id="ps1">
+            <div>
+                <p><b>Q1. Create a simple div with an id "box". Add some text content inside the div. Set its baground color to blue. <br>Ans.</b></p>
+                <div id="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quo impedit odit, id perspiciatis culpa sit consequuntur totam inventore pariatur, maxime sunt? Numquam recusandae praesentium dolores repudiandae nobis ipsam provident.</p>
+                </div>
+                <hr>
+            </div>
+
+            <div>
+                <p><b>Q2. Create 3 heading with h1, h2 & h3. Give them all a class "heading" & set color of "heading" to be red. <br>Ans.</b></p>
+                <h1 class="heading">Heaing 1</h1>
+                <h2 class="heading">Heaing 2</h2>
+                <h3 class="heading">Heaing 3</h3>
+                <hr>
+            </div>
+
+            <div>
+                <p><b>Q3. Create a button & set its baground color to: <br></b></p>
+                <ol><b>
+                    <li>green using css styesheet</li>
+                    <li>blue using style tag</li>
+                    <li>pink using inline style</li>
+                </b></ol>
+                <p><b>Ans.</b></p>
+
+                <style>
+                    button{
+                        background-color: blue;
+                    }
+                </style>
+                
+                <button style="background-color: pink">Button</button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <hr>
+        <br>
+
+
+        <div id="ps2">
+            <div>
+                <h2 id="ps2_h2">Practice Set No: 2</h2>
+                <hr class="line">
+            </div>
+
+            <div id="Q1">
+                <p><b>Q1. Create a heading centred on the page with all of its text capitalized by default ? <br>Ans.</b></p>
+                <h1 id="q1_h">Heading</h1>
+                <br>
+                <hr class="line">
+            </div>
+    
+            <div id="Q2">
+                <p><b>Q2. Set the font family of all the content in the document to "Time New Roman"? <br>Ans.</b></p>
+                <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ut dolorem sequi doloremque repellat possimus eos repellendus facere autem voluptatibus id eius unde voluptatum ducimus deleniti adipisci corrupti quos tenetur mollitia inventore laborum sint magni quod a? Ad, placeat perspiciatis a doloremque repellat ea provident sit dolor nostrum, libero unde.</p>
+                <br>
+                <hr class="line">
+            </div>
+    
+            <div id="Q3">
+                <p><b>Q3. Create One div inside another div. <br>
+                i. Set id & text "outer" for the first one & "inner" for the second one. <br>
+                ii. Set the outer div text size to 25px & inner div text size to 10px. <br>
+                Ans.
+                </b></p>
+                <div id="outer">
+                    <p>This is the text of outer div. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, ipsa.</p>
+                    <div id="inner">
+                        <p>This is the text of inner div. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, incidunt!</p>
+                    </div>
+                </div>
+                <hr class="line">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
