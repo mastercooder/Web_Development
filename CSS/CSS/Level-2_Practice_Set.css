@@ -1,0 +1,164 @@
+body{
+    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+#line{
+    height: 3px;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline dashed;
+}
+
+main{
+    #dot{
+        border: none;
+        border-top: 3px dashed;
+        height: 3px;
+    }
+    #ps-1{
+        #Q1{
+            #Q1_ans{
+                background-color: green;
+                height: 100px;
+                width: 100px;
+                border: 3px solid black;
+                border-radius: 50px;
+            }
+        }
+        #Q2{
+            padding: 0;
+            margin: 0;
+            #Q2_ans{
+                height: 60px;   
+                border: 4px solid white;
+                background-color: black;
+                color: green;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: start;
+                padding-left: 5px;
+                #logo{
+                    text-decoration: none;
+                    color: green;
+                    font-size: 25px;
+                }
+                .other{
+                    text-decoration: none;
+                    color: white;
+                }
+                a{
+                    margin-right: 200px;
+                }
+                button{
+                    background-color: #f08804;
+                }
+            }
+        }
+    }
+
+    #ps-2{
+        #Q1{
+            #div_1{
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+            }
+            #div_2{
+                background-color: yellow;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+            }
+            #div_3{
+                background-color: blue;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+            }
+        }
+        #Q2{
+            #div_1{
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+                border: solid;
+            }
+            #div_2{
+                background-color: yellow;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+                border: solid;
+            }
+            #div_3{
+                background-color: blue;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+                border: solid;
+            }
+        }
+        #Q3{
+            #div_1{
+                background-color: rgba(255, 0, 0, 1);
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                display: inline-block;
+            }
+            #div_2{
+                background-color: rgba(255, 0, 0, 0.5);
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                display: inline-block;
+            }
+            #div_3{
+                background-color: rgba(255, 0, 0, 0.2);
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                display: inline-block;
+            }
+        }
+        #Q4{
+            #div_1{
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                display: inline-block;
+            }
+            #div_2{
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                display: inline-block;
+            }
+            #div_3{
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                display: inline-block;
+            }
+        }
+    }
+}
+

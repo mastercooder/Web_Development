@@ -6,7 +6,9 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
-
+h2{
+    text-decoration: underline dashed;
+}
 h3{
     text-decoration: underline;
     text-align: center;
@@ -18,77 +20,205 @@ hr{
 }
 
 main{
-    button{
-        background-color:crimson;
-        font-weight: darker;
+    #ch-1{
+        button{
+            background-color:crimson;
+            font-weight: darker;
+        }
+        #div1{
+            height: 100px;
+            background-color: blue;
+            width: 300px;
+            border: solid;
+            border-width: 5px;
+            
+        }
+        #div2{
+            height: 100px;
+            background-color: red;
+            border: dotted;
+            border-width: 5px;
+            text-align: center;
+            font-weight: dark;
+            text-decoration: underline;
+        }
+        #shorthand{
+            border: 3px solid black;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        /* Border-Radius */
+        .br_div{
+            border: 3px solid ;
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+
+            /* Implementation */
+            border-radius: 10px;
+        }
+        #circle{
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            text-align: center;
+            font-weight: darker;
+            font-size: 20px;
+
+            border-radius: 50px;
+        }
+
+        /* Padding */
+        .p_div{
+            border: 3px solid black;
+            height: 50px;
+            font-weight: bold;
+
+            /* Implementation */
+            padding-left: 20px;
+            padding-right: 30px;
+        }
+        .psh_div{
+            border: 3px solid black;
+            font-weight: bold;
+
+            /* Implimentation */
+            padding: 10px 20px 30px 40px;
+        }
+        .m_div{
+            border: 3px solid black;
+            font-weight: bolder;
+            border-radius: 10px;
+
+            /* Implimentation */
+            margin: 10px 20px 30px 40px;
+        }
     }
-    #div1{
-        height: 100px;
-        background-color: blue;
-        width: 300px;
-        border: solid;
-        border-width: 5px;
-        
+
+    #ch-2{
+        #display{
+            #div_1{
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+            }
+            #div_2{
+                background-color: yellow;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+            }
+            #div_3{
+                background-color: magenta;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+            }
+            button{
+                background-color: blue;
+            }
+        }
+        #d_playground{
+            #div_1{
+                background-color: blue;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline;
+                display: inline-block;
+            }
+            #div_2{
+                background-color: yellow;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline;
+                display: inline-block;
+            }
+            #div_3{
+                background-color: magenta;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline;
+                display: inline-block;
+            }
+        }
+        #d_visibility{
+            #div_1{
+                background-color: blue;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline;
+                display: inline-block;
+            }
+            #div_2{
+                background-color: yellow;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline;
+                display: inline-block;
+                visibility: hidden;
+            }
+            #div_3{
+                background-color: magenta;
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline;
+                display: inline-block;
+            }
+        }
+        #ac{
+            #ac_1{
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+                background-color: rgba(255, 0, 0, 1);
+            }
+            #ac_2{
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+                background-color: rgba(255, 0, 0, 0.5);
+            }
+            #ac_3{
+                height: 100px;
+                width: 100px;
+                margin: 25px;
+                padding: 25px;
+                display: inline-block;
+                background-color: rgba(255, 0, 0, 0.25);
+            }
+        }
     }
-    #div2{
-        height: 100px;
-        background-color: red;
-        border: dotted;
-        border-width: 5px;
+}
+
+footer{
+    font-weight: bolder;
+    h2{
+        text-decoration: underline dashed;
         text-align: center;
-        font-weight: dark;
-        text-decoration: underline;
     }
-    #shorthand{
-        border: 3px solid black;
-        text-align: center;
-        font-weight: bolder;
-    }
-
-    /* Border-Radius */
-    .br_div{
-        border: 3px solid ;
-        height: 50px;
-        text-align: center;
-        font-weight: bold;
-
-        /* Implementation */
-        border-radius: 10px;
-    }
-    #circle{
-        height: 100px;
-        width: 100px;
-        border: 3px solid black;
-        text-align: center;
-        font-weight: darker;
-        font-size: 20px;
-
-        border-radius: 50px;
-    }
-
-    /* Padding */
-    .p_div{
-        border: 3px solid black;
-        height: 50px;
-        font-weight: bold;
-
-        /* Implementation */
-        padding-left: 20px;
-        padding-right: 30px;
-    }
-    .psh_div{
-        border: 3px solid black;
-        font-weight: bold;
-
-        /* Implimentation */
-        padding: 10px 20px 30px 40px;
-    }
-    .m_div{
-        border: 3px solid black;
-        font-weight: bolder;
-        border-radius: 10px;
-
-        /* Implimentation */
-        margin: 10px 20px 30px 40px;
+    .link{
+        text-decoration: none;
+        color: black;
     }
 }
