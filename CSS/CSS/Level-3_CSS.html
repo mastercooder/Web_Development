@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level-3_CSS</title>
+    <link rel="stylesheet" href="/Level-3_CSS.css">
+</head>
+<body>
+    <header>
+        <h1>Level-3: CSS</h1>
+        <hr class="line">
+    </header>
+
+    <main>
+        <div id="ch-1">
+            <h2>Chapter 1</h2>
+            <div id="relative">
+                <hr>
+                <h3>1. Relative <br>% || em || rem || other</h3>
+                <div id="percentage">
+                    <h4>i. Percentage</h4>
+                    <p>The Percentage of child depends on the parent size. If parent has 100px and you give 30% to child then the child will get 30% of 100 px that is 30px. <br>Ex.</p>
+                    <div id="p_div1">
+                        <div id="p_div2">Div 2</div>
+                        Div 1
+                    </div>
+                    <br>
+                </div>
+                <div id="em">
+                    <h4>ii. em</h4>
+                    <p>It set the font size in the parent and child div's. If the Parent font size is 100px and if you set 1em in child then it will be 100px in the child also. It basical means how grater of less then parent node 1em = same || 2em = Double and vice versa<br>Ex.</p>
+                    <div id="em_div1">
+                        <div id="em_div2">Div 2</div>
+                        Div 1
+                    </div>
+                    <br>
+                </div>
+                <div id="rem">
+                    <h4>iii. rem (Root Em)</h4>
+                    <p>It means the size will be set from the outerest element root node. If your root node is 16px and you use 2rem in a div then it will be 16X2 = 32px <br>Ex.</p>
+                    Hello
+                    <div id="rem_div1">
+                        <div id="rem_div2">Div 2</div>
+                        Div 1
+                    </div>
+                    <br>
+                </div>
+                <div id="other">
+                    <h4>iv. Other: vh || vw</h4>
+                    <p>a. vh: relative to 1% of viewport height. <br>
+                    b. vw: relative to 1% of viewport width. <br>
+                    viewport: screent that part witch is visible to us <br>
+                    It basically covery the percentage of browser. If you use 3vh then it will cover 3% of browser height and vice versa for vw <br>Ex.</p>
+                    <div id="vh_div">
+                        <div id="vw_div">Div 2</div>
+                        Div 1
+                    </div>
+                    <br>
+                </div>
+                <hr>
+            </div>
+
+            <div id="position">
+                <h3>2. Position <br>static || relative || absolute || fixed</h3>
+                <div id="static">
+                    <h4>i. static</h4>
+                    <p>Static - default postion (The top, right, bottom, left, and z-index properties have no effect). <br>
+                    Relative - element is relative to itself. (The top, right, bottom, left, and z-index will work). <br>
+                    absolute - positioned relaive to its closest positioned ancestor. (removed from the flow). <br>
+                    fixed - positioned relative to browser. (removed from flow) <br>
+                    sticky - positioned based on user's scroll position. <br></p>
+                    <br>
+                    <br>
+                    <div id="s_div1">static</div>
+                    <div id="s_div2">relative</div>
+                    <div id="s_div3">absolute</div>
+                    <div id="s_div4">fixed</div>
+                    <div id="s_div5">sticky</div>
+                    <br>
+                </div>
+                <br>
+            </div>
+            
+            <div id="z-index">
+                <h3>3. Z-Index <br> 1 || 2 || -1 || -2</h3>
+                <p>Postive - Uppar <br>
+                Negative - Down</p>
+                <div id="z_div1">Div 1</div>
+                <div id="z_div2">Div 2</div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
