@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level-4: CSS</title>
+    <link rel="stylesheet" href="/Level-4_CSS.css">
+</head>
+<body>
+    <header>
+        <h1>Level-4: CSS</h1>
+        <hr class="line"> 
+    </header>
+
+    <main>
+        <div id="ch-1">
+            <h2>Chapter 1: Flexbox</h2>
+            <p><b>Flexible Box</b></p>
+            <p>It is a one-dimensional layout method for arranging item in rows or columns.</p>
+            <hr>
+            <div class="flexbox">
+                <div id="fx_direction">
+                    <h3>1. Flexbox Direction <br> rows(defalut) || rows-reverse || column || column-reverse</h3>
+                    <p>a. rows(defalut) - Left - Right Element. <br>
+                    b. Rows-Reverse - Right-Left Element <br>
+                    c. Column - Top-Bottom Elemnt <br>
+                    d. Column-reverse - Bottom-top Element</p>
+                    <p>If the size of container is less the the size of element in the container the element will decrase tere height/width according to the container. Until the container under it is allows. </p>
+                    <p><b>a. Rows</b></p>
+                    <div id="r_container" class="container">
+                        <div id="div1" class="divs">Div 1</div>
+                        <div id="div2" class="divs">Div 2</div>
+                        <div id="div3" class="divs">Div 3</div>
+                        <div id="div4" class="divs">Div 4</div>
+                        <div id="div5" class="divs">Div 5</div>
+                    </div> <br>
+                    <p><b>b. Rows-reverse</b></p>
+                    <div id="rr_container" class="container">
+                        <div id="div1" class="divs">Div 1</div>
+                        <div id="div2" class="divs">Div 2</div>
+                        <div id="div3" class="divs">Div 3</div>
+                        <div id="div4" class="divs">Div 4</div>
+                        <div id="div5" class="divs">Div 5</div>
+                    </div> <br>
+                    <p><b>a. Column</b></p>
+                    <div id="c_container" class="container">
+                        <div id="div1" class="divs">Div 1</div>
+                        <div id="div2" class="divs">Div 2</div>
+                        <div id="div3" class="divs">Div 3</div>
+                        <div id="div4" class="divs">Div 4</div>
+                        <div id="div5" class="divs">Div 5</div>
+                    </div> <br>
+                    <p><b>a. Column-Reverse</b></p>
+                    <div id="cr_container" class="container">
+                        <div id="div1" class="divs">Div 1</div>
+                        <div id="div2" class="divs">Div 2</div>
+                        <div id="div3" class="divs">Div 3</div>
+                        <div id="div4" class="divs">Div 4</div>
+                        <div id="div5" class="divs">Div 5</div>
+                    </div>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                </div>
+                <div id="fx_property">
+                    <h3>2. Flex-Properties <br>jurtify-contant || flex-wrap || align-item || align-content</h3>
+                    <div id="j_contant">
+                        <h4>1. Justify Containt <br>start || End || Center</h4>
+                        <p><b>a. Flex-Start</b></p>
+                        <div id="f_start" class="container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br>
+                        <p><b>b. Flex-End</b></p>
+                        <div id="f_end" class="container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br>
+                        <p><b>c. Flex-Center</b></p>
+                        <div id="center" class="container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br>
+                        <p><b>d. Space-around</b></p>
+                        <div id="space_around" class="container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br>
+                        <p><b>e. Space-between</b></p>
+                        <div id="space_between" class="container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br>
+                        <p><b>d. Space-evenly</b></p>
+                        <div id="space_evenly" class="container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                    <div id="f_wrap">
+                        <h4>2. Flex-Wrap <br>nowrap || wrap || wrap-reverse</h4>
+                        <p><b>a. Flex-Start</b></p>
+                        <br>
+                        <br>
+                    </div>
+                    <div id="align_contant">
+                        <h4>4. Align Contant</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
