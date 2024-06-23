@@ -1,0 +1,96 @@
+<!-- Practice Set: 1 -->
+<!-- Q1. Create a navbar with 4 options in the form of anchor tags inside list items. 
+     Now, use flexbox to place them all spaced equally in a single line. -->
+<!-- Q2. Use flexbox to center one div inside another div. -->
+<!-- Q3. Which has higher priority - align - items or align - self? -->
+<!-- Practice Set: 2 -->
+<!-- Q1. Add a media query to implement the following:
+    the color of a div changes to green for viewport width less than 300px
+    the color of a div changes to pink for width between 300px & 400px
+    the color of a div changes to red for width between 400px & 600px
+    the color of a div changes to blue for width above 600px -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 4: Practice Set</title>
+    <link rel="stylesheet" href="/Level-4_Practice_Set.css">
+</head>
+<body>
+    <header>
+        <h1>Level 4: Practice Set</h1>
+        <hr class="line">
+    </header>
+
+    <main>
+        <div id="ps-1">
+            <h2>Practice Set 1</h2>
+            <div id="Q1">
+                <p><b>Q1. Create a navbar with 4 options in the form of anchor tags inside list items. Now, use flexbox to place them all spaced equally in a single line <br>Ans.</b></p>
+                <ul id="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <br>
+                <hr>
+                <br>
+            </div>
+            <div id="Q2">
+                <p><b>Q2. Use flexbox to center one div inside another div.</b></p>
+                <div id="div1">
+                    <div id="div2"></div>
+                </div>
+                <br>
+                <hr>
+                <br>
+            </div>
+            <div id="Q3">
+                <p><b>Q3. Which has higher priority - align - items or align - self? <br>Ans.</b></p>
+                <p>align Self has the higher priority <br>Ex.</p>
+                <div id="div1">
+                    <div id="div2"></div>
+                </div>
+                <br>
+                <hr>
+                <br>
+            </div>
+        </div>
+
+        <div id="ps-2">
+            <h2>Practice Set 2</h2>
+            <div id="Q1">
+                <p><b>Q1. Add a media query to implement the following: <br>
+                a. the color of a div changes to green for viewport width less than 300px <br>
+                b. the color of a div changes to pink for width between 300px & 400px <br>
+                c. the color of a div changes to red for width between 400px & 600px <br>
+                d. the color of a div changes to blue for width above 600px</b></p>
+                <div class="ib_div">
+                    <div class="divs" id="div_a">a</div>
+                </div>
+                <div class="ib_div">
+                    <div class="divs" id="div_b">b</div>
+                </div>
+                <div class="ib_div">
+                    <div class="divs" id="div_c">c</div>
+                </div>
+                <div class="ib_div">
+                    <div class="divs" id="div_d">d</div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <hr>
+        <hr class="line">
+    </main>
+    
+    <footer>
+        <h2>Main Code</h2>
+        <h3><a href="/Level-4_CSS.html">HTML</a> <br>
+            <a href="/Level-4_CSS.css">CSS</a></h3>
+    </footer>
+</body>
+</html>

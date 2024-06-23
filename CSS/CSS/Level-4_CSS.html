@@ -67,6 +67,7 @@
                     <h3>2. Flex-Properties <br>jurtify-contant || flex-wrap || align-item || align-content</h3>
                     <div id="j_contant">
                         <h4>1. Justify Containt <br>start || End || Center</h4>
+                        <p>It will apply same on rows-reverse, column and column-reverse.</p>
                         <p><b>a. Flex-Start</b></p>
                         <div id="f_start" class="container">
                             <div id="div1" class="divs">Div 1</div>
@@ -126,11 +127,108 @@
                     </div>
                     <div id="align_contant">
                         <h4>4. Align Contant</h4>
-                        
+                        <p>Alinment of space between & around around the content along across-axis</p>
+                        <br>
+                        <p><b>Normal</b></p>
+                        <div id="Normal" class="ac_container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br>
+                        <p><b>b. Center</b></p>
+                        <div id="center" class="ac_container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br>
+                        <p><b>c. Start</b></p>
+                        <div id="flex-start" class="ac_container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br>
+                        <p><b>d. End</b></p>
+                        <div id="flex-end" class="ac_container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br> <br>
+                    </div>
+                    <div id="flex-item">
+                        <h4>5. Flex Item <br>align-self || flex-grow || flex-shrink</h4>
+                        <p>a. Align-self: Alignment of individual along the cross axis. <br>
+                        b. Flex grow: How much a flex item will grow relative to the rest of the flex item if space is available. <br>
+                        c. flex-shrink: how much a flex item will shrink relative to the rest of the flex items if space is available <br></p>
+                        <p><b>a. Align Self</b></p>
+                        <div id="align-self" class="fi_container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br> <br>
+                        <p><b>b. Flex grow</b></p>
+                        <div id="flex-grow" class="fi_container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br> <br>
+                        <p><b>c. Flex shrink</b></p>
+                        <div id="flex-shrink" class="fi_container">
+                            <div id="div1" class="divs">Div 1</div>
+                            <div id="div2" class="divs">Div 2</div>
+                            <div id="div3" class="divs">Div 3</div>
+                            <div id="div4" class="divs">Div 4</div>
+                            <div id="div5" class="divs">Div 5</div>
+                        </div> <br> <br>
                     </div>
                 </div>
             </div>
+            <hr class="line">
         </div>
+
+        <div id="ch-2">
+            <h2>Chapter 2: Media Queries</h2>
+            <p><b>Help Creating a responsive webside</b></p>
+            <hr>
+            <div id="media">
+                <h3>1. Media Queries <br>@media(width: 600px){ <br>
+                div{ <br>background-color: red; <br>} <br>}<br> <br>@media(min-width: 600px){ <br> div{ <br> background-color: red; <br>} <br>}</h3>
+                <p>This box has 3 shades <br>
+                a. normal width - Set a condition if with will be a specific width then the colder will change. <br>
+                b. min width - If the with is grater then the given width the colur will be set. <br>
+                c. max-width - IF the with is smaller then the given width the color will be set.
+                </p>
+                <p><b>a. Normal <br>width || min-width || max-width</b></p>
+                <div id="normal">
+                    <div class="m_div" id="mn_div"></div>
+                </div>
+                <p><b>b. Range</b></p>
+                <p>In range we can set range for divs to react accordingly</p>
+                <div id="range">
+                    <div class="m_div" id="mr_div"></div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
     </main>
+
+    <footer>
+        <hr class="line">
+        <h2>Practice Set</h2>
+        <h3><a href="/Level-4_Practice_Set.html">HTML</a> <br>
+            <a href="/Level-4_Practice_Set.css">CSS</a></h3>
+    </footer>
 </body>
 </html>

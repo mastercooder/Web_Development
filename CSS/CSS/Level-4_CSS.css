@@ -3,13 +3,15 @@
     font-family: Bookman old style;
 }
 .line{
-    border-top: 3px solid black;
+    height: 4px;
+    background-color: black;
+    border: none;
+
 }
 h2{
     font-size: 30px;
     text-decoration: underline dashed;
 }
-
 header{
     h1{
         text-align: center;
@@ -109,9 +111,224 @@ main{
                     }
                 }
                 #align_contant{
-                    
+                    .ac_container{
+                        text-align: center;
+                        border: 3px solid black;
+                        height: 600px;
+                        width: 600px;
+                        .divs{
+                            height: 50px;
+                            width: 150px;
+                            display: inline-block;
+                            border: 3px solid black;
+                        }
+                        #div1{
+                            background-color: red;
+                        }
+                        #div2{
+                            background-color: blue;
+                        }
+                        #div3{
+                            background-color: green;
+                        }
+                        #div4{
+                            background-color: yellow;
+                        }
+                        #div5{
+                            background-color: purple;
+                        }
+                    }
+                    /* Implementation */
+                    #Normal{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        align-items: center ;
+                    }
+                    #center{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        align-items: center ;
+                        align-content: center;
+                        .divs{
+                            height: 100px;
+                        }
+                        #div2{
+                            height: 200px;
+                        }
+                        #div3{
+                            height: 75px;
+                        }
+                    }
+                    #flex-start{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        align-items: center ;
+                        align-content: flex-start;
+                        .divs{
+                            height: 100px;
+                        }
+                        #div2{
+                            height: 200px;
+                        }
+                        #div3{
+                            height: 75px;
+                        }
+                    }
+                    #flex-end{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        align-items: center ;
+                        align-content: flex-end;
+                        .divs{
+                            height: 100px;
+                        }
+                        #div2{
+                            height: 200px;
+                        }
+                        #div3{
+                            height: 75px;
+                        }
+                    }
+                }
+                #flex-item{
+                    .fi_container{
+                        text-align: center;
+                        border: 3px solid black;
+                        height: 600px;
+                        width: 600px;
+                        .divs{
+                            height: 50px;
+                            width: 150px;
+                            display: inline-block;
+                            border: 3px solid black;
+                        }
+                        #div1{
+                            background-color: red;
+                        }
+                        #div2{
+                            background-color: blue;
+                        }
+                        #div3{
+                            background-color: green;
+                        }
+                        #div4{
+                            background-color: yellow;
+                        }
+                        #div5{
+                            background-color: purple;
+                        }
+                    }
+
+                    /* Implimentation */
+                    #align-self{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        align-items: flex-start;
+                        .divs{
+                            height: 100px;
+                        }
+                        #div2{
+                            height: 200px;
+                            align-self: flex-end;
+                        }
+                        #div3{
+                            height: 75px;
+                        }
+                    }
+                    #flex-grow{
+                        height: 300px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        align-items: flex-start;
+                        .divs{
+                            height: 100px;
+                        }
+                        #div2{
+                            height: 200px;
+                            align-self: flex-end;
+                        }
+                        #div3{
+                            height: 75px;
+                        }
+                    }
+                    #flex-shrink{
+                        height: 300px;
+                        width: 700px    ;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: flex-start;
+                        .divs{
+                            height: 100px;
+                            width: 50px;
+                        }
+                        #div2{
+                            height: 200px;
+                            flex-grow: 1;
+                            /* flex-shrink: size the time you wnat to shink the item. || 0 to no shink */
+                        }
+                        #div3{
+                            height: 75px;
+                            flex-grow: 1;
+                        }
+                    }
                 }
             }
         }
+    }
+    #ch-2{
+        #media{
+            .m_div{
+                border: 3px solid black;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background-color: lightblue;
+            }
+            #normal{
+                @media(width: 600px){
+                    #mn_div{
+                        background-color: yellow;
+                    }
+                }
+                @media(max-width: 600px){
+                    #mn_div{
+                        background-color: red;
+                    }
+                }
+                @media(min-width: 600px){
+                    #mn_div{
+                        background-color: blue;
+                    }
+                }   
+            }
+            #range{
+                @media(min-width: 500px) and (max-width: 1000px){
+                    #mr_div{
+                        background-color: gold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
     }
 }
