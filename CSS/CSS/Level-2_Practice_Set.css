@@ -3,8 +3,9 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 #line{
-    height: 3px;
+    height: 4px;
     background-color: black;
+    border: none;
 }
 h1{
     text-align: center;
@@ -16,9 +17,7 @@ h2{
 
 main{
     #dot{
-        border: none;
-        border-top: 3px dashed;
-        height: 3px;
+        border: 3px dashed black;
     }
     #ps-1{
         #Q1{
@@ -199,3 +198,10 @@ main{
     }
 }
 
+footer{
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

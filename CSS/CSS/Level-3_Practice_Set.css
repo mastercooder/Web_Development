@@ -3,7 +3,9 @@
     background-color: cadetblue;
 }
 .line{
-    border-top: 3px solid black;
+    height: 4px;
+    background-color: black;
+    border: none;
 }
 h2{
     text-decoration: underline dashed;
@@ -18,7 +20,7 @@ header{
 
 main{
     hr{
-        border-top: 3px dashed black;
+        border: 3px dashed black;
     }
     #ps-1{
         #Q1{
@@ -35,5 +37,13 @@ main{
                 top: 50vh;
             }
         }
+    }
+}
+
+footer{
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
     }
 }
