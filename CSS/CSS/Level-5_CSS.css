@@ -1,0 +1,166 @@
+*{
+    background-color: lightseagreen;
+    font-family: bookman old style;
+}
+.line{
+    height: 7px;
+    background-color: gold;
+    border: none;
+    border-radius: 50%;
+    
+}
+h2{
+    font-size: 30px;
+    text-decoration:  3px underline dashed;
+}
+
+
+header{
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+main{
+    hr{
+        border: 3px dashed black;
+    }
+    #ch-1{
+        .element{
+            border: 3px solid black;
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            text-align: center;
+        }
+        .element:hover{
+            background-color: red;
+            color: white;
+            font-size: 30px;
+        }
+        .element:active{
+            background-color: yellow;
+            color: black;
+        }
+        #transitions{
+            #property{
+                #tp-div{
+                    transition-property: all;
+                }
+            }
+            #duration{
+                #td-div{
+                    transition-duration: 2s;
+                }
+            }
+            #time-function{
+                #ttf-div{
+                    transition-duration: 2s;
+                    transition-timing-function: steps(3);
+                }
+            }
+            #delay{
+                #tl-div{
+                    transition-duration: 3s;
+                    transition-delay: 1s;
+                }
+            }
+            #shorthand{
+                #ts-div{
+                    transition: all 2s ease-in 1s;
+                }
+            }
+        }
+        #transform{
+            .element{
+                transition: all 2s ease-in;
+            }
+            #rotate{
+                #r-div:hover{
+                    transform: rotate(90deg);
+                }
+                #ar-div:hover{
+                    rotate: z 180deg;
+                }
+            }
+            #scale{
+                .element{
+                    position: absolute;
+                }
+                #s-div:hover{
+                    transform: scale(2);
+                }
+                #as-div:hover{
+                    transform: scale(1, 2);
+                }
+                #s-div{
+                    display: inline-block;
+                    margin-right: 70px;
+                    left: 70px;
+                }
+                #as-div{
+                    display: inline-block;
+                    right: 80px
+                }
+            }
+            #translate{
+                #th-div:hover{
+                    transform: translate(300px);
+                }
+                #td-div:hover{
+                    transform: translate(300px, 90px);
+                }
+            }
+            #skew{
+                #s-div:hover{
+                    transform: skew(30deg);
+                }
+                #s-div{
+                    position: absolute;
+                    left: 40px;
+                }
+            }
+        }
+        #animation{
+            #properties{
+                #ic_div{
+                    height: 70px;
+                    width: 200px;
+                    border: 4px solid black;
+                    background-color: blue;
+                    display: flex;
+                    justify-content: center;
+                    #a_div{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 20px;
+                        font-weight: bolder;
+                        align-self: center;
+                        text-transform: uppercase;
+                        background-color: blue;
+                    }
+                }
+                #ic_div:hover{
+                    transition: all 1s ease-in;
+                    background-color: red;
+                    #a_div{
+                        transition: all 1s ease-in;
+                        background-color: red;
+                        color: white;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* footer{
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+} */

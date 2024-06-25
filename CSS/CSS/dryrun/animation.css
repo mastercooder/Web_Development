@@ -1,0 +1,84 @@
+*{
+    background-color: lightseagreen;
+}
+
+.line{
+    height: 5px;
+    background-color: black;
+    border: black;
+}
+
+.dot{
+    border: 4px dashed black;
+}
+
+header{
+    text-align: center;
+}
+
+.divs{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+    /* animation-timing-function: ease-in; */
+    animation-delay: 1s;
+}
+
+#div1{
+    animation-iteration-count: infinite;
+    animation-name: colorChange;
+    animation-duration: 0.25s;
+}
+
+.divs{
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-name: changePos;
+    animation-duration: 2s;
+    
+}
+
+#div2_i{
+    animation-direction: normal;
+}
+#div2_ii{
+    animation-direction: reverse;
+}
+#div2_iii{
+    animation-direction: alternate;
+}
+#div2_iv{
+    animation-direction: alternate-reverse;
+}
+
+#div3_i{
+    animation: changePos 2s ease-in 0s infinite alternate;
+}
+
+@keyframes colorChange {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-color: red;
+    }
+}   
+
+@keyframes changePos{
+    from{
+        left: 20px;
+        background-color: blue;
+    }
+    to{
+        left: 400px;
+        background-color: red;
+    }
+}

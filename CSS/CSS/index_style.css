@@ -1,27 +1,36 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
-}
-
-body{
+    font-family: Bookman Old style;
     background-color: wheat;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-h1{
-    text-align: center;
-    text-decoration: underline;
+header{
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        font-size: 60px;
+    }
 }
 
 hr{
-    height: 2px;
+    height: 4px;
     background-color: black;
 }
 
-.noline{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-.bold{
-    font-weight: bolder;
+main{
+    h2{
+        font-size: 40px;
+        text-decoration: underline dashed;
+        font-weight: bolder;
+    }
+    h3{
+        text-decoration: 2px underline;
+        font-size: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
 }
