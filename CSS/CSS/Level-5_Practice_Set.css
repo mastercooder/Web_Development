@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(112, 159, 112);
+    font-family: Bookman Old style;
+}
+.line{
+    height: 6px;
+    background-color: gold;
+    border: none;
+    border-radius: 50%;
+}
+h2{
+    font-size: 35px;
+    text-decoration: 3px underline dashed;
+
+}
+
+header{
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+main{
+    #ps-1{
+        #Q1{
+            #div1{
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                border: 20px solid white;
+                border-top: 20px solid lightblue;
+                position: absolute;
+                left: 200px;
+            }
+            #div1:hover{
+                animation: loader 2s ease-in-out infinite;
+            }
+        }
+    }
+}
+@keyframes loader {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+footer{
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}

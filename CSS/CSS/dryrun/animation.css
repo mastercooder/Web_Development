@@ -1,5 +1,13 @@
 *{
     background-color: lightseagreen;
+    font-family: Bookman old style;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
 }
 
 .line{
@@ -63,6 +71,10 @@ header{
     animation: changePos 2s ease-in 0s infinite alternate;
 }
 
+#div4_i{
+    animation: percenrage 2s ease-in 0s infinite alternate-reverse;
+}
+
 @keyframes colorChange {
     from {
         background-color: blue;
@@ -78,6 +90,20 @@ header{
         background-color: blue;
     }
     to{
+        left: 400px;
+        background-color: red;
+    }
+}
+
+@keyframes percenrage{
+    0%{
+        left: 20px;
+        background-color: blue;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
         left: 400px;
         background-color: red;
     }
