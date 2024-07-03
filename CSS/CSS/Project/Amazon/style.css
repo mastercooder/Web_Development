@@ -7,7 +7,7 @@
 /* -------------------------------------Header----------------------------------*/
 .navbar{
     height: 60px;
-    background-color: #0F1111;
+    background-color: #131820;
     color: white;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@
     width: 106px;
 }
 #logo{
-    background-image: url(/Images/amazon_logo.png);
+    background-image: url(/Images/Header_Footer/amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -30,7 +30,11 @@
 .border{
     border: 1.5px solid transparent 100%;
 }
+.nav-logo:hover{
+    border: 1.5px solid white;
+}
 .border:hover{
+    padding: 9px 9px 9px 9px;   
     border: 1.5px solid white;
 }
 
@@ -140,7 +144,7 @@ span{
 /* -------------------------------------Main----------------------------------*/
 /* Hero-Section */
 .hero-section{
-    background-image: url(/Images/hero.jpg);
+    background-image: url(/Images/Main/hero.jpg );
     background-size: cover;
     height: 350px;
     display: flex;
@@ -172,8 +176,16 @@ span{
     background-color: #4b02c1;
     a{
         text-decoration: none;
-        color: #017184;
+        color: black;
     }
+    .shop_span1{
+        color: #017184;
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+}
+.shop_span1:hover{
+    color: #c6501f;
 }
 .box{
     height: 400px;
@@ -189,10 +201,70 @@ span{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.img1{
+    margin-bottom: 40px;
+}
+.img2{
+    margin-bottom: 40px;
+}
+.img4{
+    margin-bottom: 40px;
+}
+.img5{
+    margin-bottom: 40px;
+}
+.img8{
+    margin-bottom: 40px;
+}
 .box-content{
     margin-left: 18px;
     margin-right: 18px;
 }
+.longbox{
+    height: 260px;
+    width: 97%;
+    background-color: white;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.shop_span2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 18px;
+}
+.longbox_content{
+    margin-left: 18px;
+    margin-top: 10px;
+    height: 220px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.L_img{
+    background-size: cover;
+    height: 200px;
+    margin-right: 10px;
+}
+.l_img1{
+    height: 105px;
+    width: 270px;
+}
+.l_img2{
+    height: 190px;
+    width: 120px;
+}
+.l_img3{
+    width: 187px;
+}
+.l_img4{
+    width: 139px;
+}
+.l_img5{
+    width: 112px;
+}
+
 
 
 /* -------------------------------------Footer----------------------------------*/
