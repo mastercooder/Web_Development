@@ -80,6 +80,10 @@ h1{
     padding-top: 20px;
     font-size: 0.85rem;
 }
+.terms_a:hover{
+    text-decoration: underline;
+    color: #cb511e;
+}
 .details{
     display: flex;
     align-items: center;
@@ -116,7 +120,8 @@ h1{
     margin-top: 30px;
     background-color: #f8f8f8;
     height: 45px;
-    width: 97%;
+    width: 100%;
+    
 }
 .foot_panel2{
     padding-top: 20px;
