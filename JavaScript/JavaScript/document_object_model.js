@@ -45,3 +45,38 @@ console.log("BY Console.log");
 console.log(querySelector);
 console.log("BY Console.dir");
 console.dir(querySelectorAll);
+
+
+console.log("\n");
+console.log("   Properties  ");
+console.log("---------------");
+console.log("\ni. tagName");
+console.log(p_tagName.tagName);
+
+console.log("\nii. innerName");
+let p_innerName = document.querySelector("#p_innerName");
+
+
+console.log("\niii. innerHTML");
+let p_innerHTML = document.querySelector("#p_innerHTML");
+
+
+
+
+console.log("\n");
+console.log("       Practice Set        ");
+console.log("---------------------------");
+console.log("\nAns1")
+let ans1 = document.querySelector("#ans1_h");
+console.dir(ans1.innerText);
+ans1.innerText = ans1.innerText + " from Tejesh Patel"
+console.log("Changed the Name")
+
+console.log("\nAns2");
+let ans2 = document.querySelectorAll(".box");
+console.log(ans2);
+for(div of ans2){
+    div.innerText = "This Div was changed";
+}
+
+
