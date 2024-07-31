@@ -73,7 +73,7 @@ ans1.innerText = ans1.innerText + " from Tejesh Patel"
 console.log("Changed the Name")
 
 console.log("\nAns2");
-let ans2 = document.querySelectorAll(".box");
+let ans2 = document.querySelectorAll(".div_q2");
 console.log(ans2);
 for(div of ans2){
     div.innerText = "This Div was changed";
@@ -89,12 +89,68 @@ console.log(display_att);
 let attribute_val = display_att.getAttribute("class");
 console.log(attribute_val);
 
-console.log("\nChange Attribute Value")
-let edit_att_display = document.querySelector(".default_value");
-attribute_val = edit_att_display.getAttribute("class");
-console.log(attribute_val);
+console.log("\na. Change Attribute Value");
+let editAttDisplay = document.querySelector(".default_value");
+let currentAttributeValue = editAttDisplay.getAttribute("class");
+console.log(currentAttributeValue);
 
-let edited_attribute = edit_att_display.setAttribute("default_value", "value_change");
-let newValue = document.querySelector("value_change");
-attribute_val = newValue.getAttribute("class");
-console.log(attribute_val);
+console.log("\nb. Edit Attribute Value")
+editAttDisplay.setAttribute("class", "value_changed");
+let newValue = editAttDisplay.getAttribute("class");
+console.log(newValue);
+
+
+
+console.log("Style Change");
+let styleVal = document.querySelector(".change_style");
+console.log(styleVal);
+styleVal = styleVal.style.backgroundColor = "green";
+
+
+console.log("\nc. Insert Elements");
+let newButton = document.createElement("button");
+newButton.innerText = "Button";
+console.log(newButton);
+let newHeading = document.createElement("h1");
+newHeading.innerHTML = "<i>New Heading</i>"
+
+let insertButton = document.querySelector(".create_but");
+let insertHeading = document.querySelector(".create_but");
+
+// Insert At Start
+insertButton.prepend(newButton); 
+insertHeading.prepend(newHeading); 
+
+// Insert At End
+insertButton.append(newButton); 
+insertHeading.append(newHeading); 
+
+// Before an Element
+insertButton.before(newButton); 
+insertHeading.before(newHeading); 
+
+// After an Element
+insertButton.after(newButton);
+insertHeading.after(newHeading);
+
+console.log("Remove Element")
+let removePara = document.querySelector("#remove");
+removePara.remove();
+newHeading.remove();
+
+
+console.log("\n");
+console.log("       Practice Set        ");
+console.log("---------------------------");
+// Q1
+let ps2_answer1 = document.createElement("button");
+ps2_answer1.innerText = "Click me!";
+ps2_answer1.style.backgroundColor = 'red';
+ps2_answer1.style.color = 'white';
+
+let insert_ps2_a1 = document.querySelector(".ps2_ans1");
+insert_ps2_a1.prepend(ps2_answer1);
+
+// Q2
+let para = document.querySelector(".ps2_p");
+para.classList.add("ps2_newClass");

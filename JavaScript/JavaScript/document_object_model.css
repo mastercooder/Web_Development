@@ -23,21 +23,37 @@ h4{
 .mi_dom{
     padding-left: 20px;
 }
+.attribute{
+    padding-left: 20px;
+}
 .box{
     height: 100px;
     width: 100px;
-    border: 2px solid black;
+    border: 3px solid black;
     margin: 5px 10px 5px 5px;
-    display: inline-block;
     background-color: blue;
     border-radius: 10px;
 }
+.div_q2{
+    display: inline-block;
+}
 .change_style{
-    height: 100px;
-    width: 100px;
-    border: 3px solid black;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
     background-color: yellow;
+}
+.create_but{
+    ul{
+        background-color: blue;
+        li{
+            background-color: blue;
+        }
+    }
+}
+.ps2_p{
+    color: red;
+    font-weight: bolder;
+}
+
+.ps2_newClass{
+    font-weight: bolder;
+    background-color: blue;
 }
