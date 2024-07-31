@@ -80,3 +80,21 @@ for(div of ans2){
 }
 
 
+console.log("\n");
+console.log("       Attributes      ");
+console.log("-----------------------");
+console.log("\nGet Attribute Value");
+let display_att = document.querySelector(".att_val");
+console.log(display_att);
+let attribute_val = display_att.getAttribute("class");
+console.log(attribute_val);
+
+console.log("\nChange Attribute Value")
+let edit_att_display = document.querySelector(".default_value");
+attribute_val = edit_att_display.getAttribute("class");
+console.log(attribute_val);
+
+let edited_attribute = edit_att_display.setAttribute("default_value", "value_change");
+let newValue = document.querySelector("value_change");
+attribute_val = newValue.getAttribute("class");
+console.log(attribute_val);
