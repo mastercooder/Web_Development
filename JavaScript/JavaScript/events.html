@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 8: Events</title>
+    <link rel="stylesheet" href="/events.css">
+</head>
+<body>
+    <header>
+        <h1>Events in JavaScripts</h1>
+    </header>
+    <main>
+        <div class="inline_even">
+            <h2>1. Inline Event Handal</h2>
+            <ol>
+                <li><button onclick="console.log('Button was Clicked'); alert('Hello');">Click me</button></li>
+                <li><button ondblclick="console.log('Button was Clicked 2 times');">Click me 2 times</button>
+            </li>
+            </ol>
+            <div class="ie_div1" onmouseover="console.log('You are on Box')">
+                <p>Box</p>
+            </div>
+        </div>
+        <div class="even_in_js">
+            <h2>2. Event Handal in JavaScripts</h2>
+            <ol>
+                <li><button id="but1">Click me</button></li>
+                <li><button id="but2">Click me 2 times</button>
+            </li>
+            </ol>
+            <div class="eij_div1 ie_div1">
+                <p>Box</p>
+            </div>
+            <p>Inline event Has more priourity then JS event while handeling</p>
+        </div>
+        <div class="even_object">
+            <h2>3. Event Object</h2>
+            <ol>
+                <li><button id="eo_but1">Click me</button></li>
+                <li><button id="eo_but2">Click me 2 times</button>
+            </li>
+            </ol>
+            <div class="eo_div1 ie_div1">
+                <p>Box</p>
+            </div>
+        </div>
+        <div class="event_listeners">
+            <h2>4. Event Listeners</h2>
+            <ol>
+                <li><button id="el_btn1">Button</button></li>
+                <li><button id="el_btn2">Button</button></li>
+            </ol>
+        </div>
+        <div class="practice_set">
+            <h2>Practice Set</h2>
+            <p>Q1. Create a toggle to change the screen to dark-mode when clicked & light-mode when clicked again</p>
+            <button id="ans1">Dark / Light Mode</button>
+        </div>
+    </main>
+</body>
+<script src="/events.js"></script>
+</html>

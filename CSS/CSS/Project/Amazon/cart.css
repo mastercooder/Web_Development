@@ -152,11 +152,12 @@ main{
 }
 .content{
     padding: 14px 18px 18px 18px;
-    height: 1400px;
+    height: 1100px;
     display: flex;
 }
 .content_a{
     width: 80%;
+    height: 80%;
 }
 
 /* Box 1 */
@@ -258,26 +259,163 @@ main{
     }
 }
 
-
 /* Box 4 */
 .content_b{
     border: 1px solid #d4d9d8;
     background-color: white;
     margin: 20px 0px 20px 20px;
     width: 20%;
+    height: 100%;
     border-radius: 10px;
 }
 .side_box{
-    width: 90%;
+    width: 100%;
     margin: 15px 15px 15px 15px;
     height: 90%;
-    p{
+    .sb_heading{
         font-size: 1.2rem;
         font-weight: bold;
     }
+    a{
+        color: #0071a5;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: #cb511e;
+        font-size: 14px;
+    }
+    .sb_img_con{
+        padding-left: 110px;
+        font-size: 14px;
+        i{
+            color: #fea51c;
+            margin-top: 5px;
+        }
+        .sb_price{
+            margin-top: 5px;
+            color: #b82704;
+        }
+        .sb_addCart{
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55%;
+            height: 22px;
+            background-color: #ffd915;
+            border-radius: 10px;
+            
+        }
+        .sb_addCart:hover{
+            background-color: #f7cb01;
+        }
+        .sb_puchse_count{
+            color: #0071a5;
+        }
+    }
+}
+.sb_img{
+    margin-top: 1.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+}
+.sb_img1{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/71S-pQNQyIL._AC_UL200_SR200,200_.jpg");
+}
+.sb_img2{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/81xlNPKMrQL._AC_UL200_SR200,200_.jpg");
+}
+.sb_img3{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/81jhBeNlXcL._AC_UL200_SR200,200_.jpg");
+}
+.sb_img5{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/71iCbWjCopL._AC_UL100_SR100,100_.jpg");
+}
+.sb_img4{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/81Bxo64d2-L._AC_UL100_SR100,100_.jpg");
+}
+.sb_img6{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61pUul1oDlL._AC_UL200_SR200,200_.jpg");
+}
+.sb_img7{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/716BM1w-ZSL._AC_UL200_SR200,200_.jpg");
+}
+.sb_img8{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61HguwsCmeL._AC_UL200_SR200,200_.jpg");
 }
 
-/* Footer Panel */
+
+/* Box 5 */
+.content_c{
+    height: 800px;
+    margin-top: 20px;
+    background-color: white;    
+    border: 2px solid white;
+}
+.cc_content{
+    margin: 20px 20px 20px 20px;
+    height: 80%;
+}
+.cc_products{
+    display: flex;
+    margin-left: 100px;
+}
+.cc_img{
+    height: 165px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.cc_img_con{
+    padding-top: 170px;
+    font-size: 14px;
+    a{
+        color: #0071a5;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: #cb511e;
+        font-size: 14px;
+    }
+    i{
+        color: #fea51c;
+        margin-top: 5px;
+    }
+    .cc_price{
+        margin-top: 5px;
+        font-size: 15px;
+        color: #b82704;
+    }
+    .cc_addCart{
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 22px;
+        background-color: #ffd915;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    .cc_addCart:hover{
+        background-color: #f7cb01;
+    }
+    .cc_puchse_count{
+        color: #0071a5;
+    }
+}
+.cc_img1{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61aOVk7w1CL._AC_UL165_SR165,165_.jpg");
+}
+.cc_img2{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/21cyLLAmtNL._AC_UL165_SR165,165_.jpg");
+}
+
+
+/* ------------------------------------------- Footer Panel ------------------------------------------- */
 .foot-panel1{
     background-color: #37475a;
     color: white;
