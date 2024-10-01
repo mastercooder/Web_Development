@@ -97,8 +97,9 @@ class Child extends Parent{};
 let obj = new Child;
 
 class Person{
-    constructor(){
+    constructor(lang){
         this.species = "Homo Sapiens";
+        this.lang = lang
     }
     eat(){
         console.log("Eat");
@@ -107,7 +108,7 @@ class Person{
         console.log("Sleep");
     }
     work(){
-        console.log("Do Nothing");
+        console.log("Working on Backend");
     }
 }
 
@@ -130,3 +131,80 @@ let suraj = new Doctor;
 console.log("");
 console.log("   Super Keyword   ");
 console.log("-------------------");
+
+class web extends Person{
+    constructor(language){
+        super(language) // To call parent class constructor
+        this.language = language;
+    }
+    name(){
+        super.work(); // To call parent Class method
+        console.log("JavaScripts");
+    }
+}
+
+let skey = new web("Python");
+console.log("");
+console.log("");
+console.log("------------------------------------------------------------------------------------------------");
+console.log("                                           PRACTICE SET                                         ");
+console.log("                                         ----------------                                       ");
+console.log("");
+console.log("Q1. You are creating a website for your college. Create a class User with 2 properties, name & emil. It also has a method called viewData() that allows user to view website data. \nAns.");
+console.log("Parent Class - user \nMethod - viewData()\nStudent - Student1,2 || Teacher - teacher1");
+
+let DATA = "This is the Data";
+
+class user{
+    constructor(name, email){
+        this.name = name;
+        this.email = email;
+    }
+    vewData(){
+        console.log("Data = ", DATA);
+    }
+}
+
+let student1 = new user("Tejesh", "tejesh.patel@gamil.com");
+let student2 = new user("Jayesh", "jayesh.patel@gamil.com");
+let teacher1 = new user("Teacher1", "teacher.sir@gamil.com");
+
+console.log("")
+console.log("Q2. Create a new class Admin which inherts from User. Add a new method called editData to Admin that allows it to edit website data ? \nAns.");
+console.log("Parent Class - Admin extends from User\nMethod - editData()")
+
+class Admin extends user{
+    editData(){
+        super.vewData();
+        DATA = "Data Changed"
+    }
+}
+
+let ans2 = new Admin("MasterCoder", "master@gamil.com");
+
+
+
+
+
+
+
+console.log("");
+console.log("   Error Handling  ");
+console.log("-------------------");
+
+let a = 5;
+let b = 10;
+
+console.log("a = ", a);
+console.log("b = ", b);
+console.log("a + b = ", a+b);
+try{
+    console.log("a + c = ", a+c);
+} catch{
+    console.log("Something Went Wrong!");
+}
+console.log("a + b = ", a+b);
+
+
+
+
