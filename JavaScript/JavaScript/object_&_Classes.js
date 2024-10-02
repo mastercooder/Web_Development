@@ -41,7 +41,7 @@ console.log("");
 console.log("           Classes in JS           ");
 console.log("-----------------------------------");
 // It is like a BLUE PRINT for Objects
-console.log("toyotaCar - start, stop, setBrand | fortuner, lexus")
+console.log("toyotaCar - start, stop, setBrand | fortuner, lexus")  
 
 class toyotaCar{
     start(){
