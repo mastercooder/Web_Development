@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: "Bookman Old Style";
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.questions{
+    padding: 50px 0px 0px 20px;
+    p{
+        font-size: 20px;
+    }
+    #a2{
+        margin: 0px 0px 10px 20px;
+        padding-right: 30px;
+        border-radius: 5px;
+    }
+    #a3_label, #a3_p{
+        margin-left: 20px;
+    }
+}

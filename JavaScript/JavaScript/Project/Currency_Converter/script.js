@@ -1,5 +1,5 @@
 const BASE_URL =
-  "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
+  "https://raw.githubusercontent.com/WoXy-Sensei/currency-api/main/api";
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("button");
@@ -42,6 +42,9 @@ btn.addEventListener("click", async (evt) => {
     }
     
     // console.log(fromCurr.value, toCurr.value);
-    const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
+    const URL = `${BASE_URL}/${fromCurr.value.toUpperCase()}_${toCurr.value.toUpperCase()}.json`;
     let response = await fetch(URL)
+    let data = await response.json();
+    let rate = data[toCurr.value.toUpperCase()];
+    console.log(data);
 });

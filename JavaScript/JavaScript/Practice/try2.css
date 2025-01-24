@@ -1,0 +1,29 @@
+*{
+    font-family: "Bookman Old Style";
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    form{
+        padding-top: 10px;
+    }
+    input{
+        margin-top: 10px;
+    }
+    button{
+        margin-top: 10px;
+    }
+}
+

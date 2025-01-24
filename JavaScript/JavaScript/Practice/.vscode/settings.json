@@ -1,0 +1,5 @@
+{
+    "github.copilot.chat.edits.suggestRelatedFilesFromGitHistory": true,
+    "github.copilot.chat.edits.suggestRelatedFilesForTests": true,
+    "github.copilot.renameSuggestions.triggerAutomatically": true
+}
