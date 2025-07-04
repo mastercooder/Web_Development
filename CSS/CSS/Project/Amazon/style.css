@@ -6,12 +6,14 @@
 
 /* -------------------------------------Header----------------------------------*/
 .navbar{
-    height: 60px;
     background-color: #131820;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* height: 60px; */
+    flex-wrap: wrap; 
+    padding: 10px 20px;
 }
 
 /* Box 1 */
@@ -390,10 +392,39 @@ ul a:hover{
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
+        padding: 10px 20px;
+        flex-wrap: wrap;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
     }
 
     .nav-address {
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+        flex-direction: row;
+    }
+
+    .search-select,
+    .search-input,
+    #search-icon {
+        font-size: 1rem;
+    }
+
+    .nav-search input,
+    .search-input {
+        width: 100%;
+    }
+
+    .nav-options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         margin-top: 10px;
     }
 
@@ -410,4 +441,20 @@ ul a:hover{
         flex-direction: column;
         text-align: center;
     }
+
+    .panel {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .panel-opt {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .panel-deals {
+        align-self: center;
+    }
 }
+
