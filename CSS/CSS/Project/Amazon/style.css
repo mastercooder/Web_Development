@@ -186,7 +186,7 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;    
     background-color: #4b02c1;
-    gap: 20px;
+    /* gap: 20px;    */
     a{
         text-decoration: none;
         color: black;
@@ -203,7 +203,7 @@ a{
 .box{
     height: auto;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     background-color: white;
     padding: 20px 0px 15px;
     margin: 10px auto;
