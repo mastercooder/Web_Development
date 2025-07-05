@@ -6,12 +6,13 @@
 
 /* -------------------------------------Header----------------------------------*/
 .navbar{
-    height: 60px;
     background-color: #131820;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px 20px;
 }
 
 /* Box 1 */
@@ -166,7 +167,7 @@ main{
     width: 100%;
     background-color: white;
     padding: 20px 0px 20px 0px;
-    margin-top: 20px;
+    margin-top: 4px;
     display: flex;    
 }
 .cart_img{
@@ -231,7 +232,7 @@ main{
 
 /* Box 2 */
 .cart_recomendation{
-    padding: 20px 0px 15px 0px;
+    padding: 0px 0px 15px 0px;
     background-color: white;
     margin-top: 20px;
     height: 4rem;
@@ -263,7 +264,7 @@ main{
 .content_b{
     border: 1px solid #d4d9d8;
     background-color: white;
-    margin: 20px 0px 20px 20px;
+    margin: 2px 0px 20px 20px;
     width: 20%;
     height: 100%;
     border-radius: 10px;
@@ -349,14 +350,17 @@ main{
 
 /* Box 5 */
 .content_c{
-    height: 800px;
+    height: 650px;
     margin-top: 20px;
     background-color: white;    
     border: 2px solid white;
 }
 .cc_content{
-    margin: 20px 20px 20px 20px;
-    height: 80%;
+    margin: 15px 20px 110px 20px;
+    height: 50%;
+    h2{
+        font-size: 21px;
+    }
 }
 .cc_products1{
     display: flex;
@@ -434,6 +438,55 @@ main{
 
 .cc_products2{
     margin-top: 10rem;
+}
+
+
+
+/* Box 6*/
+.per_recomandation{
+    height: 140px;
+    width: 100%;
+    border-block: 1px solid #dcdddc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 24px;
+    }
+}
+.per_container{
+    margin-top: 20px;
+}
+.per_sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 5px 10px;
+    p{
+        background-color: #fed815;
+        height: 30px;
+        width: 60%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px
+    }
+}
+.new_cust{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    a{
+        color: #2063a1;
+        text-decoration: underline;
+    }
+}
+.new_cust a:hover{
+    color: #ca501e
 }
 
 
@@ -531,4 +584,64 @@ ul a:hover{
 .pages{
     padding-top: 25px;
     padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        flex-wrap: wrap;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-address {
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+        flex-direction: row;
+    }
+
+    .search-select,
+    .search-input,
+    #search-icon {
+        font-size: 1rem;
+    }
+
+    .nav-search input,
+    .search-input {
+        width: 100%;
+    }
+
+    .nav-options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .panel {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .panel-opt {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .panel-deals {
+        align-self: center;
+    }
 }
