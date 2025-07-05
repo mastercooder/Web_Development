@@ -239,11 +239,13 @@ a{
 }
 .longbox{
     height: 260px;
-    width: 97%;
+    width: 98.4%;
     background-color: white;
-    padding: 10px;
-    margin: 10px 0 15px 0;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
+
 .shop_span2{
     font-size: 1.5rem;
     font-weight: 700;
@@ -260,7 +262,7 @@ a{
 .L_img{
     background-size: cover;
     height: 200px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .l_img1{
     height: 105px;
@@ -456,9 +458,18 @@ ul a:hover{
     .panel-deals {
         align-self: center;
     }
-    .longbox_content {
-    flex-direction: column;
-    align-items: center;
-}
-}
+    .box9 {
+        width: 90%;                
+        max-width: 400px;
+        margin: 10px auto;           
+        flex: none;                  
+
+    .longbox {
+        flex-direction: column;
+        align-items: center;         
+        gap: 10px;
+        padding: 10px;
+        height: auto;
+    }
+    }
 
