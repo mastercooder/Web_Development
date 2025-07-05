@@ -219,7 +219,7 @@ a{
     aspect-ratio: 1 / 1;
 }
 .img1{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .img2{
     margin-bottom: 40px;
@@ -230,9 +230,9 @@ a{
 .img5{
     margin-bottom: 40px;
 }
-.img8{
+/* .img8{
     margin-bottom: 40px;
-}
+} */
 .box-content{
     margin-left: 18px;
     margin-right: 18px;
@@ -252,21 +252,38 @@ a{
     margin-left: 18px;
 }
 .longbox_content{
-    margin-left: 18px;
-    margin-top: 10px;
-    height: 220px;
-    width: 270px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+.longbox-contenct .box9 {
+    flex: 0 0 150px;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.longbox-contenct .box9 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 .L_img{
     background-size: cover;
     height: 200px;
-    margin-right: 30px;
+    margin: 20px 30px 0px 0px;
 }
 .l_img1{
     height: 105px;
     width: 270px;
+    padding: 42px 0 0 30px;
 }
 .l_img2{
     height: 190px;
@@ -458,18 +475,5 @@ ul a:hover{
     .panel-deals {
         align-self: center;
     }
-    .box9 {
-        width: 90%;                
-        max-width: 400px;
-        margin: 10px auto;           
-        flex: none;                  
-
-    .longbox {
-        flex-direction: column;
-        align-items: center;         
-        gap: 10px;
-        padding: 10px;
-        height: auto;
-    }
-    }
+}
 
