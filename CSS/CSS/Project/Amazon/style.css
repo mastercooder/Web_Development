@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap; 
-    padding: 10px 20px;
+    padding: 5px 0px;
 }
 
 /* Box 1 */
@@ -70,6 +70,8 @@
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border: none;
+    padding: 5px;
+    color: #555555;
 }
 .search-input{
     width: 100%;
