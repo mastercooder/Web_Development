@@ -5,6 +5,7 @@
 body{
     background-color: #548687;
     text-align: center;
+    overflow: hidden;
 }
 
 h1{
@@ -66,28 +67,50 @@ h1{
 }
 
 @media (max-width: 600px) {
+  .container {
+    height: 50vh;
+  }
+
+  .game {
+    height: 50vmin;
+    width: 50vmin;
+    gap: 1vmin;
+  }
+
+  .box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 6vmin;
+  }
+
   h1 {
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+  }
+
+  #winner {
+    font-size: 1.5rem;
   }
 
   #reset_button,
   #new_button {
-    padding: 0.7rem 1.2rem;
     font-size: 1rem;
-    margin: 0.5rem 0.3rem;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
   }
 
   .all_button {
+    margin-top: 0.5rem;
+    gap: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
-    margin-top: 1rem;
   }
+}
 
-  #winner {
-    font-size: 2rem;
-    margin-top: 1rem;
+@media (max-height: 750px) {
+  .game-container {
+    max-height: 100vh;
+    overflow: hidden;
   }
 }
